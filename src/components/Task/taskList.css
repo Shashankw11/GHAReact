@@ -1,0 +1,48 @@
+/* Center the task list on the page */
+.task-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f0f0f0;
+    height: 100vh;
+  }
+  
+  /* Style the task list content */
+  .task-list-content {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Style the headings */
+  .task-list-content h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Style the task list */
+  .task-list-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list-content li {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #555;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Add hover effect to list items */
+  .task-list-content li:hover {
+    background-color: #f9f9f9;
+  }
+  

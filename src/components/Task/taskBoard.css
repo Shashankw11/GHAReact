@@ -1,0 +1,44 @@
+/* Style the board container */
+.board-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f0f0f0;
+    height: 100vh;
+  }
+  
+  /* Style each column */
+  .column {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    padding: 10px;
+  }
+  
+  /* Style the column heading */
+  .column h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the tasks */
+  .task {
+    background-color: #e2e2e2;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+    cursor: grab;
+  }
+  
+  /* Add hover effect to tasks */
+  .task:hover {
+    background-color: #d4d4d4;
+  }
+  
